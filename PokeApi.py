@@ -67,6 +67,10 @@ def Anterior():
 root = tk.Tk()
 root.title("Pokedex")
 
+#Se aplico un cambio en el primer commit ya se le agrego un fondo tkinter
+print("Se hizo el primer cambio se agrego un fondo")
+root.config(bg="Lightblue")
+
 #Etiquetas de informacion e imagen
 label_nombre = tk.Label(root, text="Nombre: ", font=("Georgia", 18))
 label_altura = tk.Label(root, text="Altura: ", font=("Georgia", 18))
